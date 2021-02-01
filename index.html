@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nurserykings.edu</title>
+	<style type="text/css">
+		.albut{
+			width: 70px;
+			height: 70px;
+			background: #ffcc00;
+			border-radius: 10px;
+			font-size: 30px;
+			margin: 20px;
+			border-style: solid;
+			border-color: #ff9900;
+			background-image: linear-gradient(yellow,orange);
+			border: 1px;
+			transition: transform 0.3s;
+			transform: scale(1);
+			text-align: center;
+		}
+		.albut:active {
+			transition: transform 0.3s;
+			transform: scale(1.2);
+		}
+		.header{
+			position: fixed;
+			display: ;
+			background: #ffcc00;
+			width: 100%;
+			height: 70px;
+			top: 0px;
+			left: 0px;
+			z-index: 2;
+			padding: 0px;
+		}
+		.main-div{
+			margin-top: 70px;
+			display: block;
+		}
+		.head-but{
+			top: 0px;
+			width: 70px;
+			height: 70px;
+			z-index: 2;
+			padding: 0px;
+		}
+	</style>
+</head>
+<body bgcolor="#0099ff">
+	<div class="header">
+		<img src="logo.jpg" width="200" height="70" >
+		<button class="head-but" style="top: 0px;">home</button>
+		<button class="head-but" style="top: 0px;">about</button>
+	</div>
+<center>
+	<div class="main-div">
+	<table>
+		<tr>
+			<td><button class="albut" onclick="a()">A</button></td>
+			<td><button class="albut" onclick="b()">B</button></td>
+			<td><button class="albut" onclick="c()">C</button></td>
+			<td><button class="albut" onclick="d()">D</button></td>
+		</tr>
+		<tr>
+			<td><button class="albut" onclick="e()">E</button></td>
+			<td><button class="albut" onclick="f()">F</button></td>
+			<td><button class="albut" onclick="g()">G</button></td>
+			<td><button class="albut" onclick="h()">H</button></td>
+		</tr>
+		<tr>
+			<td><button class="albut" onclick="i()">I</button></td>
+			<td><button class="albut">J</button></td>
+			<td><button class="albut">K</button></td>
+			<td><button class="albut">L</button></td>
+		</tr>
+		<tr>
+			<td><button class="albut">M</button></td>
+			<td><button class="albut">N</button></td>
+			<td><button class="albut">O</button></td>
+			<td><button class="albut">P</button></td>
+		</tr>
+		<tr>
+			<td><button class="albut">Q</button></td>
+			<td><button class="albut">R</button></td>
+			<td><button class="albut">S</button></td>
+			<td><button class="albut">T</button></td>
+		</tr>
+		<tr>
+			<td><button class="albut">U</button></td>
+			<td><button class="albut">V</button></td>
+			<td><button class="albut">W</button></td>
+			<td><button class="albut">X</button></td>
+		</tr>
+		<tr>
+			<td><button class="albut">Y</button></td>
+			<td><button class="albut">Z</button></td>
+		</tr>
+	</table>
+</div>
+</center>
+
+<script type="text/javascript">
+	function a(){
+		var msg = new SpeechSynthesisUtterance();
+		var voices = window.speechSynthesis.getVoices();
+		msg.voice = voices[1]; 
+		msg.text = " a ";
+		msg.rate = 0.7;
+		msg.pitch = 0;
+		msg.lang = 'es-us';
+		window.speechSynthesis.speak(msg);
+	}
+	function b(){
+		var msg = new SpeechSynthesisUtterance();
+		var voices = window.speechSynthesis.getVoices();
+		msg.voice = voices[1]; 
+		msg.text = " b ";
+		msg.rate = 0.7;
+		msg.pitch = 0;
+		msg.lang = 'es-us';
+		window.speechSynthesis.speak(msg);
+	}
+	function c(){
+		var msg = new SpeechSynthesisUtterance();
+		var voices = window.speechSynthesis.getVoices();
+		msg.voice = voices[1]; 
+		msg.text = " c ";
+		msg.rate = 0.7;
+		msg.pitch = 0;
+		msg.lang = 'es-us';
+		window.speechSynthesis.speak(msg);
+	}
+	function d(){
+		var msg = new SpeechSynthesisUtterance();
+		var voices = window.speechSynthesis.getVoices();
+		msg.voice = voices[1]; 
+		msg.text = " d ";
+		msg.rate = 0.7;
+		msg.pitch = 0;
+		msg.lang = 'es-us';
+		window.speechSynthesis.speak(msg);
+	}
+	function e(){
+		var msg = new SpeechSynthesisUtterance();
+		var voices = window.speechSynthesis.getVoices();
+		msg.voice = voices[1]; 
+		msg.text = " e ";
+		msg.rate = 0.7;
+		msg.pitch = 0;
+		msg.lang = 'es-us';
+		window.speechSynthesis.speak(msg);
+	}
+	function f(){
+		var msg = new SpeechSynthesisUtterance();
+		var voices = window.speechSynthesis.getVoices();
+		msg.voice = voices[1]; 
+		msg.text = " f ";
+		msg.rate = 0.7;
+		msg.pitch = 0;
+		msg.lang = 'es-us';
+		window.speechSynthesis.speak(msg);
+	}
+	function g(){
+		var msg = new SpeechSynthesisUtterance();
+		var voices = window.speechSynthesis.getVoices();
+		msg.voice = voices[1]; 
+		msg.text = " g ";
+		msg.rate = 0.7;
+		msg.pitch = 0;
+		msg.lang = 'es-us';
+		window.speechSynthesis.speak(msg);
+	}
+	function h(){
+		var msg = new SpeechSynthesisUtterance();
+		var voices = window.speechSynthesis.getVoices();
+		msg.voice = voices[1]; 
+		msg.text = " h " ;
+		msg.rate = 0.7;
+		msg.pitch = 0;
+		msg.lang = 'es-us';
+		window.speechSynthesis.speak(msg);
+	}
+	function i(){
+		var msg = new SpeechSynthesisUtterance();
+		var voices = window.speechSynthesis.getVoices();
+		msg.voice = voices[1]; 
+		msg.text = " i ";
+		msg.rate = 0.7;
+		msg.pitch = 0;
+		msg.lang = 'es-us';
+		window.speechSynthesis.speak(msg);
+	}
+	function j(){
+		var msg = new SpeechSynthesisUtterance();
+		var voices = window.speechSynthesis.getVoices();
+		msg.voice = voices[1]; 
+		msg.text = " j ";
+		msg.rate = 0.7;
+		msg.pitch = 0;
+		msg.lang = 'es-us';
+		window.speechSynthesis.speak(msg);
+	}
+</script>
+
+</body>
+</html>
